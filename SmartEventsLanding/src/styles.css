@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    background-color: #1A1A1A;
+    color: #ffffff;
+}
+.carousel-inner{
+    margin-top: -50px;
+    padding-top: -50px;
+    height: 600px;
+}
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    
+  }
+  .navbar {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    color: aqua;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    position: relative;
+    
+  }
